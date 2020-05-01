@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  margin-top: 150px;
+}
+
+.card-img-top {
+  width: 50%;
+  height: auto;
+}

@@ -1,0 +1,461 @@
+{
+  "books": [
+    {
+      "_id": "5cf5805fb53e011a64671582",
+      "name": "The Fellowship Of The Ring"
+    },
+    {
+      "_id": "5cf58077b53e011a64671583",
+      "name": "The Two Towers"
+    },
+    {
+      "_id": "5cf58080b53e011a64671584",
+      "name": "The Return Of The King"
+    }
+  ],
+  "movies": [
+    {
+      "id": "5cd95395de30eff6ebccde58",
+      "name": "The Unexpected Journey",
+      "poster": "https://static.cinemagia.ro/img/resize/db/movie/02/44/98/the-hobbit-an-unexpected-journey-247000l-600x0-w-4d0c76b2.jpg",
+      "runtimeInMinutes": 169,
+      "budgetInMillions": 200,
+      "boxOfficeRevenueInMillions": 1021,
+      "academyAwardNominations": 3,
+      "academyAwardWins": 1
+    },
+    {
+      "_id": "5cd95395de30eff6ebccde59",
+      "name": "The Desolation of Smaug",
+      "poster": "https://static.posters.cz/image/750/postere/the-hobbit-the-desolation-of-smaug-dragon-i19284.jpg",
+      "runtimeInMinutes": 161,
+      "budgetInMillions": 217,
+      "boxOfficeRevenueInMillions": 958.4,
+      "academyAwardNominations": 3,
+      "academyAwardWins": 0
+    },
+    {
+      "_id": "5cd95395de30eff6ebccde5a",
+      "name": "The Battle of the Five Armies",
+      "poster": "https://images-na.ssl-images-amazon.com/images/I/91cyWCF7nML._RI_.jpg",
+      "runtimeInMinutes": 144,
+      "budgetInMillions": 250,
+      "boxOfficeRevenueInMillions": 956,
+      "academyAwardNominations": 1,
+      "academyAwardWins": 0
+    },
+    {
+      "_id": "5cd95395de30eff6ebccde5b",
+      "name": "The Two Towers ",
+      "poster": "https://www.dvdplanetstore.pk/wp-content/uploads/2014/01/The-Lord-of-the-Rings-The-Fellowship-of-the-Ring.jpg",
+      "runtimeInMinutes": 179,
+      "budgetInMillions": 94,
+      "boxOfficeRevenueInMillions": 926,
+      "academyAwardNominations": 6,
+      "academyAwardWins": 2
+    },
+    {
+      "_id": "5cd95395de30eff6ebccde5c",
+      "name": "The Fellowship of the Ring",
+      "poster": "https://images.991.com/large_image/The+Lord+Of+The+Rings+The+Fellowship+Of+The+Ring-208554.jpg",
+      "runtimeInMinutes": 178,
+      "budgetInMillions": 93,
+      "boxOfficeRevenueInMillions": 871.5,
+      "academyAwardNominations": 13,
+      "academyAwardWins": 4
+    },
+    {
+      "_id": "5cd95395de30eff6ebccde5d",
+      "name": "The Return of the King",
+      "poster": "https://filme-recomandate.ro/wp-content/uploads/2018/10/The-Lord-of-the-Rings-The-Return-of-the-King-2003.jpg",
+      "runtimeInMinutes": 201,
+      "budgetInMillions": 94,
+      "boxOfficeRevenueInMillions": 1120,
+      "academyAwardNominations": 11,
+      "academyAwardWins": 11
+    }
+  ],
+  "characters": [
+    {
+      "_id": "5cd99d4bde30eff6ebccfbe5",
+      "height": "",
+      "race": "Human",
+      "gender": "Male",
+      "birth": "TA 2227",
+      "spouse": "Unnamed wife",
+      "death": "TA 2327",
+      "realm": "",
+      "hair": "",
+      "image": "https://vignette.wikia.nocookie.net/lotr/images/4/43/Aragorn3.jpg/revision/latest?cb=20080318215744",
+      "name": "Aragorn I",
+      "wikiUrl": "http://lotr.wikia.com//wiki/Aragorn_I"
+    },
+    {
+      "_id": "5cd99d4bde30eff6ebccfc07",
+      "height": "",
+      "race": "Elf",
+      "gender": "Female",
+      "birth": "TA 241",
+      "spouse": "Aragorn II Elessar",
+      "death": "FO 121",
+      "realm": "Reunited Kingdom",
+      "hair": "Black",
+      "name": "Arwen",
+      "wikiUrl": "http://lotr.wikia.com//wiki/Arwen"
+    },
+    {
+      "_id": "5cd99d4bde30eff6ebccfc38",
+      "height": "1.25m (4'1\")",
+      "race": "Hobbit",
+      "gender": "Male",
+      "birth": "22 September ,TA 2890",
+      "spouse": "None",
+      "death": "Unknown (Last sighting 29 SeptemberTA 3021,) (,SR 1421,)",
+      "realm": "",
+      "hair": "Brown, later white",
+      "name": "Bilbo Baggins",
+      "wikiUrl": "http://lotr.wikia.com//wiki/Bilbo_Baggins"
+    },
+    {
+      "_id": "5cd99d4bde30eff6ebccfd0a",
+      "height": "",
+      "race": "Hobbit",
+      "gender": "Male",
+      "birth": "FO 2",
+      "spouse": "Unnamed wife",
+      "death": "FO",
+      "realm": "",
+      "hair": "",
+      "name": "Frodo Gardner",
+      "wikiUrl": "http://lotr.wikia.com//wiki/Frodo_Gardner"
+    },
+    {
+      "_id": "5cd99d4bde30eff6ebccfc1b",
+      "height": "",
+      "race": "Dwarf",
+      "gender": "Male",
+      "birth": "TA 2763",
+      "spouse": "",
+      "death": "TA 2994",
+      "realm": "",
+      "hair": "White",
+      "name": "Balin",
+      "wikiUrl": "http://lotr.wikia.com//wiki/Balin"
+    },
+    {
+      "_id": "5cd99d4bde30eff6ebccfc58",
+      "height": "",
+      "race": "Human",
+      "gender": "Male",
+      "birth": "FA 338",
+      "spouse": "Unnamed wife",
+      "death": "FA 432",
+      "realm": "",
+      "hair": "",
+      "name": "Boromir (House of Bëor)",
+      "wikiUrl": "http://lotr.wikia.com//wiki/Boromir_(House_of_B%C3%ABor)"
+    },
+    {
+      "_id": "5cd99d4bde30eff6ebccfe7b",
+      "height": "",
+      "race": "Hobbit",
+      "gender": "",
+      "birth": "",
+      "spouse": "",
+      "death": "",
+      "realm": "",
+      "hair": "",
+      "name": "Merry Gamgee",
+      "wikiUrl": "http://lotr.wikia.com//wiki/Merry_Gamgee"
+    },
+    {
+      "_id": "5cd99d4bde30eff6ebccfcc8",
+      "height": "Tall",
+      "race": "Elf",
+      "gender": "Male",
+      "birth": "FA 532",
+      "spouse": "Celebrían",
+      "death": "Still alive; departed to ,Aman, on ,September 29 ,3021",
+      "realm": "Rivendell",
+      "hair": "Dark",
+      "name": "Elrond",
+      "wikiUrl": "http://lotr.wikia.com//wiki/Elrond"
+    },
+    {
+      "_id": "5cdbdecb6dc0baeae48cfa5a",
+      "death": "FO 63",
+      "birth": "TA 2990",
+      "hair": "Dirty blond",
+      "realm": "Rohan",
+      "height": "Tall-6'6",
+      "spouse": "Lothíriel after the War of the Ring",
+      "gender": "Male",
+      "name": "Éomer",
+      "race": "Men",
+      "wikiUrl": "http://lotr.wikia.com//wiki/%C3%89omer"
+    },
+    {
+      "_id": "5cd99d4bde30eff6ebccfcdf",
+      "height": "",
+      "race": "Human",
+      "gender": "Male",
+      "birth": "Mid ,Third Age",
+      "spouse": "",
+      "death": "TA 1944",
+      "realm": "",
+      "hair": "",
+      "name": "Faramir (son of Ondoher)",
+      "wikiUrl": "http://lotr.wikia.com//wiki/Faramir_(son_of_Ondoher)"
+    },
+    {
+      "_id": "5cd99d4bde30eff6ebccfd06",
+      "height": "Tall",
+      "race": "Elf",
+      "gender": "Female",
+      "birth": "YT 1362",
+      "spouse": "Celeborn",
+      "death": "Still alive: Departed over the sea on ,September 29 ,3021",
+      "realm": "Eregion,Lothlórien,Caras Galadhon",
+      "hair": "Golden",
+      "name": "Galadriel",
+      "wikiUrl": "http://lotr.wikia.com//wiki/Galadriel"
+    },
+    {
+      "_id": "5cd99d4bde30eff6ebccfd0d",
+      "height": "1.22m (4'0\")",
+      "race": "Hobbit",
+      "gender": "Male",
+      "birth": "April 6 ,2980",
+      "spouse": "Rosie Cotton",
+      "death": "Still alive, after going to the ,Undying Lands, in ,FO 61",
+      "realm": "",
+      "hair": "Blond (movie)",
+      "name": "Samwise Gamgee",
+      "wikiUrl": "http://lotr.wikia.com//wiki/Samwise_Gamgee"
+    },
+    {
+      "_id": "5cd99d4bde30eff6ebccfea0",
+      "height": "",
+      "race": "Maiar",
+      "gender": "Male",
+      "birth": "Before the the Shaping of Arda",
+      "spouse": "",
+      "death": "January 253019 ,Battle of the Peak immortal",
+      "realm": "",
+      "hair": "Grey, later white",
+      "name": "Gandalf",
+      "wikiUrl": "http://lotr.wikia.com//wiki/Gandalf"
+    },
+    {
+      "_id": "5cd99d4bde30eff6ebccfd23",
+      "height": "",
+      "race": "Dwarf",
+      "gender": "Male",
+      "birth": "TA 2879",
+      "spouse": "",
+      "death": "Unknown (Departed to ,Aman ,FO 120,)",
+      "realm": "",
+      "hair": "Auburn",
+      "name": "Gimli",
+      "wikiUrl": "http://lotr.wikia.com//wiki/Gimli"
+    },
+    {
+      "_id": "5cd99d4bde30eff6ebccfe9e",
+      "height": "",
+      "race": "Hobbit",
+      "gender": "Male",
+      "birth": "TA 2430",
+      "spouse": "",
+      "death": "March 25 ,3019",
+      "realm": "",
+      "hair": "",
+      "name": "Gollum",
+      "wikiUrl": "http://lotr.wikia.com//wiki/Gollum"
+    },
+    {
+      "_id": "5cd99d4bde30eff6ebccfe9d",
+      "height": "",
+      "race": "Human",
+      "gender": "Male",
+      "birth": "TA 2974",
+      "spouse": "",
+      "death": "November 3 ,3019",
+      "realm": "",
+      "hair": "Black",
+      "name": "Gríma Wormtongue",
+      "wikiUrl": "http://lotr.wikia.com//wiki/Gr%C3%ADma_Wormtongue"
+    },
+    {
+      "_id": "5cd99d4bde30eff6ebccfd82",
+      "height": "Very tall almost 7'1",
+      "race": "Human",
+      "gender": "Male",
+      "birth": "SA 3209",
+      "spouse": "Unnamed wife",
+      "death": "TA 2",
+      "realm": "Arnor,Gondor",
+      "hair": "Black",
+      "name": "Isildur",
+      "wikiUrl": "http://lotr.wikia.com//wiki/Isildur"
+    },
+    {
+      "_id": "5cd99d4bde30eff6ebccfd81",
+      "height": "",
+      "race": "Elf",
+      "gender": "Male",
+      "birth": "",
+      "spouse": "",
+      "death": "Still alive, departed to ,Aman ,FO 120",
+      "realm": "",
+      "hair": "Uncertain (book), Blonde (films)",
+      "name": "Legolas",
+      "wikiUrl": "http://lotr.wikia.com//wiki/Legolas"
+    },
+    {
+      "_id": "5cd99d4bde30eff6ebccfea4",
+      "height": "",
+      "race": "Maiar",
+      "gender": "Male",
+      "birth": "Before the creation of ,Arda",
+      "spouse": "None",
+      "death": "3 November ,3019",
+      "realm": "Isengard,Nan Curunír",
+      "hair": "White",
+      "name": "Saruman",
+      "wikiUrl": "http://lotr.wikia.com//wiki/Saruman"
+    },
+    {
+      "_id": "5cd99d4bde30eff6ebccfea5",
+      "height": "Various until",
+      "race": "Maiar",
+      "gender": "Male",
+      "birth": "Before the creation of ,Arda",
+      "spouse": "None",
+      "death": "March 25 ,3019",
+      "realm": "",
+      "hair": "Various",
+      "name": "Sauron",
+      "wikiUrl": "http://lotr.wikia.com//wiki/Sauron"
+    },
+    {
+      "_id": "5cdbdecb6dc0baeae48cfa42",
+      "death": "November 1 ,TA 2941",
+      "birth": "Unknown, first appeared in ,TA 2770",
+      "hair": null,
+      "realm": "Lonely Mountain",
+      "height": null,
+      "spouse": null,
+      "gender": "Male",
+      "name": "Smaug",
+      "race": "Dragons"
+    },
+    {
+      "_id": "5cd99d4bde30eff6ebccfe19",
+      "height": "Tall",
+      "race": "Human",
+      "gender": "Male",
+      "birth": "TA 2948 ,Gondor",
+      "spouse": "Elfhild",
+      "death": "March 15 ,3019",
+      "realm": "",
+      "hair": "White with braids (book) Blonde (films)",
+      "name": "Théoden",
+      "wikiUrl": "http://lotr.wikia.com//wiki/Th%C3%A9oden"
+    },
+    {
+      "_id": "5cd99d4bde30eff6ebccfe15",
+      "height": "",
+      "race": "Dwarf",
+      "gender": "Male",
+      "birth": "TA 2746",
+      "spouse": "",
+      "death": "November 23, TA 2941",
+      "realm": "Ered Luin",
+      "hair": "",
+      "name": "Thorin II Oakenshield",
+      "wikiUrl": "http://lotr.wikia.com//wiki/Thorin_II_Oakenshield"
+    },
+    {
+      "_id": "5cd9d533844dc4c55e47afed",
+      "height": "15'4",
+      "race": "Ent",
+      "gender": "Male",
+      "birth": "YT",
+      "spouse": "Fimbrethil",
+      "death": "",
+      "realm": "",
+      "hair": "Leaf, twig and moss like",
+      "name": "Treebeard",
+      "wikiUrl": "http://lotr.wikia.com//wiki/Treebeard"
+    }
+  ],
+  "movie-characters": [
+    {
+      "id-movie": "5cd95395de30eff6ebccde5c",
+      "id-character": "5cd99d4bde30eff6ebccfbe5"
+    },
+    {
+      "id-movie": "5cd95395de30eff6ebccde5c",
+      "id-character": "5cd99d4bde30eff6ebccfc38"
+    },
+    {
+      "id-movie": "5cd95395de30eff6ebccde5c",
+      "id-character": "5cd99d4bde30eff6ebccfd0a"
+    }
+  ],
+  "users": [
+    {
+      "username": "miha",
+      "email": "alabala@test.ro",
+      "password": "1",
+      "confirm-password": "1",
+      "id": 1
+    },
+    {
+      "username": "gg",
+      "email": "alabala@test.ro",
+      "password": "1",
+      "confirm-password": "1",
+      "id": 2
+    },
+    {
+      "username": "ggj",
+      "email": "mihaela@stroiescu.ro",
+      "password": "a",
+      "confirm-password": "a",
+      "id": 3
+    },
+    {
+      "username": "vv",
+      "email": "alabala@test.ro",
+      "password": "1",
+      "confirm-password": "1",
+      "id": 4
+    },
+    {
+      "username": "nn",
+      "password": "X2sT3jS67RtyzLQ",
+      "id": 5
+    },
+    {
+      "username": "gg",
+      "password": "X2sT3jS67RtyzLQ",
+      "id": 6
+    },
+    {
+      "username": "miha",
+      "password": "1",
+      "id": 7
+    },
+    {
+      "username": "hh",
+      "password": "1",
+      "id": 8
+    },
+    {
+      "username": "bbb",
+      "password": "1",
+      "id": 9
+    }
+  ]
+}

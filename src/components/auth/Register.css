@@ -1,0 +1,42 @@
+.main-container {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 700px;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border: 2px solid grey;
+    box-shadow: 12px 15px 15px rgb(161, 152, 153);
+    text-align: center;
+}
+
+.main-container img {
+    width: 320px;
+    margin-bottom: 20px;
+}
+
+.main-container h4 {
+    margin-bottom: 20px;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: tomato;
+}
+
+.form-group {
+    width: 100%;
+}
+
+label {
+    padding: 20px 20px 0 0;
+    width: 30%;
+    text-align: start;
+
+}
+
+input {
+    width: 60%;
+}

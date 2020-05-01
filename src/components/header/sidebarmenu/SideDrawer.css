@@ -1,0 +1,54 @@
+.backdrop {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.sidebarmenu {
+    height: 100%;
+    background-color: #C48E38;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    max-width: 400px;
+    z-index: 200;
+    transform: translateX(-100%);
+    transition: all .5s;
+}
+
+.sidebarmenu.open {
+    transform: translateX(0);
+}
+
+.sidebarmenu ul {
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.sidebarmenu li {
+    margin: 0.5rem 0;
+}
+
+.sidebarmenu a {
+    color:white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.sidebarmenu a:hover,
+.sidebarmenu a:active {
+    color: rgb(75, 34, 34);
+    text-decoration: none;
+    font-weight: bolder;
+}
