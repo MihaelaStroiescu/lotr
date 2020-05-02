@@ -27,7 +27,7 @@ function Header() {
                 <nav className="navigation-bar">
                     <SideDrawer click={drawerToggleClickHandler} isOpen={sideDrawerOpen} />
                     <SideBarToggle click={drawerToggleClickHandler} />
-                    <div className="nav-logo"><Link to="/"><img alt="Logo" src="lotr.jpg" /></Link></div>
+                    <div className="nav-logo"><Link to="/"><img alt="Logo" src="/lotr.jpg" /></Link></div>
                     <div className="navigation-bar-items">
                         <ul>
                             <li><Link to="/">Home  {userName}</Link></li>

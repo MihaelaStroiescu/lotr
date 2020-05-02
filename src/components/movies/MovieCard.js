@@ -15,7 +15,7 @@ function MovieCard({ film }) {
                     <p className="card-text">
                         Duration: {film.runtimeInMinutes}
                     </p>
-                    <Link to={'/movies/' + film._id} className="btn btn-primary">Details</Link>
+                    <Link to={'/movies/' + film.id} className="btn btn-primary">Details</Link>
                 </div>
             </div>
         </div>

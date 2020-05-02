@@ -31,7 +31,6 @@ function MovieList() {
         <div className="row">
             <h1>Welcome</h1>
             {movies.map(movie => <MovieCard film={movie} key={movie.id} />)}
-
         </div>
         </AutoContext.Provider>
     );

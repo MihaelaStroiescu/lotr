@@ -5,14 +5,13 @@ import AuthContext from '../auth/AuthContext';
 
 
 function MovieDetails() {
-
     const { userName } = useContext(AuthContext);
-    const { movies_id } = useParams();
+    const { moviesId } = useParams();
     const [movie, setMovie] = useState(null);
 
     async function getMovieById(id) {
         try {
-            const res = await axios(`http://localhost:3200/movies/${id}`);
+            const res = await axios('http://localhost:3200/movies/' + id);
             setMovie(res.data);
             console.log(res.data)
         } catch (e) {
@@ -22,15 +21,17 @@ function MovieDetails() {
     }
 
     useEffect(() => {
-        getMovieById(movies_id);
-    }, [movies_id]);
+        getMovieById(moviesId);
+    }, [moviesId]);
 
     if (movie) {
-        console.log(movie);
         return (
             <>
                 <h1>{movie.name}</h1>
-                <div>{movie.poster}</div>
+                <div>
+                    <img src={movie.poster} alt=""/>
+                </div>
+
                     {userName ?
                         <Link className="btn btn-primary" to={"/movies/edit/" + movie.id}>Edit This Movie</Link>
                         :

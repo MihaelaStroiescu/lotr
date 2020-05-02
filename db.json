@@ -1,15 +1,15 @@
 {
   "books": [
     {
-      "_id": "5cf5805fb53e011a64671582",
+      "id": "5cf5805fb53e011a64671582",
       "name": "The Fellowship Of The Ring"
     },
     {
-      "_id": "5cf58077b53e011a64671583",
+      "id": "5cf58077b53e011a64671583",
       "name": "The Two Towers"
     },
     {
-      "_id": "5cf58080b53e011a64671584",
+      "id": "5cf58080b53e011a64671584",
       "name": "The Return Of The King"
     }
   ],
@@ -25,7 +25,7 @@
       "academyAwardWins": 1
     },
     {
-      "_id": "5cd95395de30eff6ebccde59",
+      "id": "5cd95395de30eff6ebccde59",
       "name": "The Desolation of Smaug",
       "poster": "https://static.posters.cz/image/750/postere/the-hobbit-the-desolation-of-smaug-dragon-i19284.jpg",
       "runtimeInMinutes": 161,
@@ -35,7 +35,7 @@
       "academyAwardWins": 0
     },
     {
-      "_id": "5cd95395de30eff6ebccde5a",
+      "id": "5cd95395de30eff6ebccde5a",
       "name": "The Battle of the Five Armies",
       "poster": "https://images-na.ssl-images-amazon.com/images/I/91cyWCF7nML._RI_.jpg",
       "runtimeInMinutes": 144,
@@ -45,7 +45,7 @@
       "academyAwardWins": 0
     },
     {
-      "_id": "5cd95395de30eff6ebccde5b",
+      "id": "5cd95395de30eff6ebccde5b",
       "name": "The Two Towers ",
       "poster": "https://www.dvdplanetstore.pk/wp-content/uploads/2014/01/The-Lord-of-the-Rings-The-Fellowship-of-the-Ring.jpg",
       "runtimeInMinutes": 179,
@@ -55,7 +55,7 @@
       "academyAwardWins": 2
     },
     {
-      "_id": "5cd95395de30eff6ebccde5c",
+      "id": "5cd95395de30eff6ebccde5c",
       "name": "The Fellowship of the Ring",
       "poster": "https://images.991.com/large_image/The+Lord+Of+The+Rings+The+Fellowship+Of+The+Ring-208554.jpg",
       "runtimeInMinutes": 178,
@@ -65,7 +65,7 @@
       "academyAwardWins": 4
     },
     {
-      "_id": "5cd95395de30eff6ebccde5d",
+      "id": "5cd95395de30eff6ebccde5d",
       "name": "The Return of the King",
       "poster": "https://filme-recomandate.ro/wp-content/uploads/2018/10/The-Lord-of-the-Rings-The-Return-of-the-King-2003.jpg",
       "runtimeInMinutes": 201,
@@ -77,7 +77,7 @@
   ],
   "characters": [
     {
-      "_id": "5cd99d4bde30eff6ebccfbe5",
+      "id": "5cd99d4bde30eff6ebccfbe5",
       "height": "",
       "race": "Human",
       "gender": "Male",
@@ -91,7 +91,7 @@
       "wikiUrl": "http://lotr.wikia.com//wiki/Aragorn_I"
     },
     {
-      "_id": "5cd99d4bde30eff6ebccfc07",
+      "id": "5cd99d4bde30eff6ebccfc07",
       "height": "",
       "race": "Elf",
       "gender": "Female",
@@ -104,7 +104,7 @@
       "wikiUrl": "http://lotr.wikia.com//wiki/Arwen"
     },
     {
-      "_id": "5cd99d4bde30eff6ebccfc38",
+      "id": "5cd99d4bde30eff6ebccfc38",
       "height": "1.25m (4'1\")",
       "race": "Hobbit",
       "gender": "Male",
@@ -117,7 +117,7 @@
       "wikiUrl": "http://lotr.wikia.com//wiki/Bilbo_Baggins"
     },
     {
-      "_id": "5cd99d4bde30eff6ebccfd0a",
+      "id": "5cd99d4bde30eff6ebccfd0a",
       "height": "",
       "race": "Hobbit",
       "gender": "Male",
@@ -130,7 +130,7 @@
       "wikiUrl": "http://lotr.wikia.com//wiki/Frodo_Gardner"
     },
     {
-      "_id": "5cd99d4bde30eff6ebccfc1b",
+      "id": "5cd99d4bde30eff6ebccfc1b",
       "height": "",
       "race": "Dwarf",
       "gender": "Male",
@@ -143,7 +143,7 @@
       "wikiUrl": "http://lotr.wikia.com//wiki/Balin"
     },
     {
-      "_id": "5cd99d4bde30eff6ebccfc58",
+      "id": "5cd99d4bde30eff6ebccfc58",
       "height": "",
       "race": "Human",
       "gender": "Male",
@@ -156,7 +156,7 @@
       "wikiUrl": "http://lotr.wikia.com//wiki/Boromir_(House_of_B%C3%ABor)"
     },
     {
-      "_id": "5cd99d4bde30eff6ebccfe7b",
+      "id": "5cd99d4bde30eff6ebccfe7b",
       "height": "",
       "race": "Hobbit",
       "gender": "",
@@ -169,7 +169,7 @@
       "wikiUrl": "http://lotr.wikia.com//wiki/Merry_Gamgee"
     },
     {
-      "_id": "5cd99d4bde30eff6ebccfcc8",
+      "id": "5cd99d4bde30eff6ebccfcc8",
       "height": "Tall",
       "race": "Elf",
       "gender": "Male",
@@ -182,7 +182,7 @@
       "wikiUrl": "http://lotr.wikia.com//wiki/Elrond"
     },
     {
-      "_id": "5cdbdecb6dc0baeae48cfa5a",
+      "id": "5cdbdecb6dc0baeae48cfa5a",
       "death": "FO 63",
       "birth": "TA 2990",
       "hair": "Dirty blond",
@@ -195,7 +195,7 @@
       "wikiUrl": "http://lotr.wikia.com//wiki/%C3%89omer"
     },
     {
-      "_id": "5cd99d4bde30eff6ebccfcdf",
+      "id": "5cd99d4bde30eff6ebccfcdf",
       "height": "",
       "race": "Human",
       "gender": "Male",
@@ -208,7 +208,7 @@
       "wikiUrl": "http://lotr.wikia.com//wiki/Faramir_(son_of_Ondoher)"
     },
     {
-      "_id": "5cd99d4bde30eff6ebccfd06",
+      "id": "5cd99d4bde30eff6ebccfd06",
       "height": "Tall",
       "race": "Elf",
       "gender": "Female",
@@ -221,7 +221,7 @@
       "wikiUrl": "http://lotr.wikia.com//wiki/Galadriel"
     },
     {
-      "_id": "5cd99d4bde30eff6ebccfd0d",
+      "id": "5cd99d4bde30eff6ebccfd0d",
       "height": "1.22m (4'0\")",
       "race": "Hobbit",
       "gender": "Male",
@@ -234,7 +234,7 @@
       "wikiUrl": "http://lotr.wikia.com//wiki/Samwise_Gamgee"
     },
     {
-      "_id": "5cd99d4bde30eff6ebccfea0",
+      "id": "5cd99d4bde30eff6ebccfea0",
       "height": "",
       "race": "Maiar",
       "gender": "Male",
@@ -247,7 +247,7 @@
       "wikiUrl": "http://lotr.wikia.com//wiki/Gandalf"
     },
     {
-      "_id": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd99d4bde30eff6ebccfd23",
       "height": "",
       "race": "Dwarf",
       "gender": "Male",
@@ -260,7 +260,7 @@
       "wikiUrl": "http://lotr.wikia.com//wiki/Gimli"
     },
     {
-      "_id": "5cd99d4bde30eff6ebccfe9e",
+      "id": "5cd99d4bde30eff6ebccfe9e",
       "height": "",
       "race": "Hobbit",
       "gender": "Male",
@@ -273,7 +273,7 @@
       "wikiUrl": "http://lotr.wikia.com//wiki/Gollum"
     },
     {
-      "_id": "5cd99d4bde30eff6ebccfe9d",
+      "id": "5cd99d4bde30eff6ebccfe9d",
       "height": "",
       "race": "Human",
       "gender": "Male",
@@ -286,7 +286,7 @@
       "wikiUrl": "http://lotr.wikia.com//wiki/Gr%C3%ADma_Wormtongue"
     },
     {
-      "_id": "5cd99d4bde30eff6ebccfd82",
+      "id": "5cd99d4bde30eff6ebccfd82",
       "height": "Very tall almost 7'1",
       "race": "Human",
       "gender": "Male",
@@ -299,7 +299,7 @@
       "wikiUrl": "http://lotr.wikia.com//wiki/Isildur"
     },
     {
-      "_id": "5cd99d4bde30eff6ebccfd81",
+      "id": "5cd99d4bde30eff6ebccfd81",
       "height": "",
       "race": "Elf",
       "gender": "Male",
@@ -312,7 +312,7 @@
       "wikiUrl": "http://lotr.wikia.com//wiki/Legolas"
     },
     {
-      "_id": "5cd99d4bde30eff6ebccfea4",
+      "id": "5cd99d4bde30eff6ebccfea4",
       "height": "",
       "race": "Maiar",
       "gender": "Male",
@@ -325,7 +325,7 @@
       "wikiUrl": "http://lotr.wikia.com//wiki/Saruman"
     },
     {
-      "_id": "5cd99d4bde30eff6ebccfea5",
+      "id": "5cd99d4bde30eff6ebccfea5",
       "height": "Various until",
       "race": "Maiar",
       "gender": "Male",
@@ -338,7 +338,7 @@
       "wikiUrl": "http://lotr.wikia.com//wiki/Sauron"
     },
     {
-      "_id": "5cdbdecb6dc0baeae48cfa42",
+      "id": "5cdbdecb6dc0baeae48cfa42",
       "death": "November 1 ,TA 2941",
       "birth": "Unknown, first appeared in ,TA 2770",
       "hair": null,
@@ -350,7 +350,7 @@
       "race": "Dragons"
     },
     {
-      "_id": "5cd99d4bde30eff6ebccfe19",
+      "id": "5cd99d4bde30eff6ebccfe19",
       "height": "Tall",
       "race": "Human",
       "gender": "Male",
@@ -363,7 +363,7 @@
       "wikiUrl": "http://lotr.wikia.com//wiki/Th%C3%A9oden"
     },
     {
-      "_id": "5cd99d4bde30eff6ebccfe15",
+      "id": "5cd99d4bde30eff6ebccfe15",
       "height": "",
       "race": "Dwarf",
       "gender": "Male",
@@ -376,7 +376,7 @@
       "wikiUrl": "http://lotr.wikia.com//wiki/Thorin_II_Oakenshield"
     },
     {
-      "_id": "5cd9d533844dc4c55e47afed",
+      "id": "5cd9d533844dc4c55e47afed",
       "height": "15'4",
       "race": "Ent",
       "gender": "Male",

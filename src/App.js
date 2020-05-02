@@ -38,10 +38,10 @@ function App() {
         <Route exact path="/movies/">
           <Movies>{getMovies}</Movies>
         </Route>
-          <Route exact path="/movies/:movies_id">
+          <Route exact path="/movies/:moviesId">
             <MovieDetails />
           </Route>
-          <Route exact path="/movies/edit/:movies_id">
+          <Route exact path="/movies/edit/:moviesId">
             <EditMovie></EditMovie>
           </Route>
         <Route exact path="/register">
