@@ -1,15 +1,18 @@
 import React, { useState, useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink, Redirect } from 'react-router-dom';
 import SideBarToggle from './sidebarmenu/SideBarToggle';
 import SideDrawer from './sidebarmenu/SideDrawer';
-// import Register from './../auth/Register';
-import AutoContex from './../auth/AuthContext';
+//import Register from './../auth/Register';
+import AuthContex from './../auth/AuthContext';
 import  './Header.css';
 
 
 function Header() {
-    const { userName, setUserName } = useContext(AutoContex);
+    const { userName, setUserName } = useContext(AuthContex);
     let [sideDrawerOpen, setSideDrawerOpen] = useState(false);
+
+    console.log('userName header', userName);
+    console.log('localStorage userName', localStorage.userName);
 
     const drawerToggleClickHandler = ()  => {
         setSideDrawerOpen(!sideDrawerOpen);
@@ -17,8 +20,9 @@ function Header() {
 
     function handlerLogout(e){
         e.preventDefault();
-        setUserName('');
+        setUserName(null);
         localStorage.removeItem('userName');
+
     }
 
     return(
@@ -27,18 +31,21 @@ function Header() {
                 <nav className="navigation-bar">
                     <SideDrawer click={drawerToggleClickHandler} isOpen={sideDrawerOpen} />
                     <SideBarToggle click={drawerToggleClickHandler} />
-                    <div className="nav-logo"><Link to="/"><img alt="Logo" src="/lotr.jpg" /></Link></div>
+                    <div className="nav-logo"><NavLink to="/"><img alt="Logo" src="/lotr.jpg" /></NavLink></div>
                     <div className="navigation-bar-items">
                         <ul>
-                            <li><Link to="/">Home  {userName}</Link></li>
-                            <li><Link to="/">Books</Link></li>
-                            <li><Link to="/movies">Movies</Link></li>
-                            <li>{(userName?
+                            <li><NavLink activeClassName="active" to="/">Home  {userName}<span className="sr-only">(current)</span></NavLink></li>
+                            <li><NavLink activeClassName="active" to="/books">Books</NavLink></li>
+                            <li><NavLink activeClassName="active" to="/movies">Movies</NavLink></li>
+                            <li>{(userName || localStorage.userName?
+                                <>
                                 <a href="/" onClick={handlerLogout}>Logout</a>
+                                <Redirect to="/" />
+                                </>
                                 :
                                 <>
-                                <Link to="/register">Register</Link>
-                                <Link to="/login">/Login</Link>
+                                    <NavLink activeClassName="active" to="/register">Register</NavLink>
+                                    <NavLink activeClassName="active" to="/login">/Login</NavLink>
                                 </>
                             )}
                             </li>

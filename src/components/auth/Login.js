@@ -35,13 +35,16 @@ export default function Login() {
         if (!isInvalid) {
             setDirty(false);
             let res;
+            console.log('formData', formData);
             try {
                 res = await axios.get('http://localhost:3200/users?username=' + formData['username'] + '&password=' + formData['password']);
+                console.log('res data json', JSON.stringify(res.data));
+
                 if(res.data.length) {
-                    setUserName(res.data.username);
-                    localStorage.setItem('userName', res.data.username)
+                    setUserName(res.data[0].username);
+                    localStorage.setItem('userName', res.data[0].username)
                     setSuccessfull(true);
-                    console.log(res.data.username);
+                    console.log('res.data.username!!!',res.data[0].username);
                 } else {
                     setGlobalError("The user don't exist!");
                 }

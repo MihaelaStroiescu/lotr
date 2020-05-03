@@ -1,7 +1,7 @@
 import React, { useState, useEffect} from 'react';
 import axios from 'axios';
 import MovieCard from './MovieCard';
-import AutoContext from './../auth/AuthContext';
+import AuthContext from './../auth/AuthContext';
 
 function MovieList() {
     const[userName, setUserName] = useState('');
@@ -27,12 +27,12 @@ function MovieList() {
     }
 
     return (
-        <AutoContext.Provider value={{ userName, setUserName }}>
+        <AuthContext.Provider value={{ userName, setUserName }}>
         <div className="row">
             <h1>Welcome</h1>
             {movies.map(movie => <MovieCard film={movie} key={movie.id} />)}
         </div>
-        </AutoContext.Provider>
+        </AuthContext.Provider>
     );
 }
 

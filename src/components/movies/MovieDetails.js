@@ -29,10 +29,10 @@ function MovieDetails() {
             <>
                 <h1>{movie.name}</h1>
                 <div>
-                    <img src={movie.poster} alt=""/>
+                    <img src={movie.poster} width="50%" alt=""/>
                 </div>
 
-                    {userName ?
+                {userName || localStorage.userName ?
                         <Link className="btn btn-primary" to={"/movies/edit/" + movie.id}>Edit This Movie</Link>
                         :
                         null

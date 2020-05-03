@@ -2,15 +2,18 @@
   "books": [
     {
       "id": "5cf5805fb53e011a64671582",
-      "name": "The Fellowship Of The Ring"
+      "name": "The Fellowship Of The Ring",
+      "image": "https://booksyaari.com/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/t/h/the_fellowship_of_the_ring.jpg"
     },
     {
       "id": "5cf58077b53e011a64671583",
-      "name": "The Two Towers"
+      "name": "The Two Towers",
+      "image": "https://bokunosekai.files.wordpress.com/2010/11/the-two-towers.jpg"
     },
     {
       "id": "5cf58080b53e011a64671584",
-      "name": "The Return Of The King"
+      "name": "The Return Of The King",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/517fXi%2BOX2L._SX325_BO1,204,203,200_.jpg"
     }
   ],
   "movies": [
@@ -443,19 +446,11 @@
       "id": 6
     },
     {
-      "username": "miha",
+      "username": "ggg",
+      "email": "alabala@test.ro",
       "password": "1",
+      "confirm-password": "1",
       "id": 7
-    },
-    {
-      "username": "hh",
-      "password": "1",
-      "id": 8
-    },
-    {
-      "username": "bbb",
-      "password": "1",
-      "id": 9
     }
   ]
 }
