@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Redirect } from 'react-router-dom';
 import axios from 'axios';
 
 function EditMovie() {
@@ -10,6 +10,7 @@ function EditMovie() {
         try {
             const res = await axios('http://localhost:3200/movies/' + id);
             setMovie(res.data);
+            console.log(res.data)
         } catch (e) {
             console.warn(e);
         }
@@ -20,43 +21,53 @@ function EditMovie() {
         e.preventDefault();
         console.log(e)
         try {
-            const  resp = axios.put('http://localhost:3200/movies/' + movieId, {'Time':movie.runtimeInMinutesred}).then(resp => {console.log(resp.data)})
+            const resp = axios.put('http://localhost:3200/movies/' + movieId, {'poster':movie.poster}).then(resp => {console.log(resp.data)})
+            setRedirect(true)
         } catch(e) {
             console.warn(e)
         }
+
     }
+    const [redirect, setRedirect] = useState(false)
+
 
     function handleInputChange(e){
-        setMovie({ ...movie, Time: e.currentTarget.value });
+        setMovie({ ...movie, poster: e.currentTarget.value });
     }
 
     useEffect(() => {
         getMovieById(movieId);
-    }, [movieId]);
+    }, [movieId])
 
     if (!movie) {
         return <h1>Loading ...</h1>;
     }
+
     return (
         <div>
             <>
                 <h1>Edit Movie {movie.name}</h1>
 
                 <form onSubmit={handleSubmit}>
+
                     <div className="form-group">
-                        <label htmlFor="runtimeInMinutes">Time</label>
+                        <label htmlFor="newimage">Change Image</label>
                         <input
                             onChange={handleInputChange}
-                            value={movie.runtimeInMinutes}
+                            value={movie.poster}
                             type="text"
                             className={'form-control'}
-                            id="runtimeInMinutes"
-                            placeholder="run time in minutes"
+                            id="newimage"
+                            placeholder="upload your url"
                         />
                     </div>
 
                     <button type="submit" className="btn btn-primary">Save</button>
                 </form>
+                {(redirect ?
+                <Redirect to="/movies" />
+                : null
+                )}
             </>
 
         </div>

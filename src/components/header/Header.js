@@ -2,7 +2,6 @@ import React, { useState, useContext } from 'react';
 import { NavLink, Redirect } from 'react-router-dom';
 import SideBarToggle from './sidebarmenu/SideBarToggle';
 import SideDrawer from './sidebarmenu/SideDrawer';
-//import Register from './../auth/Register';
 import AuthContex from './../auth/AuthContext';
 import  './Header.css';
 
@@ -37,7 +36,7 @@ function Header() {
                             <li><NavLink activeClassName="active" to="/">Home  {userName}<span className="sr-only">(current)</span></NavLink></li>
                             <li><NavLink activeClassName="active" to="/books">Books</NavLink></li>
                             <li><NavLink activeClassName="active" to="/movies">Movies</NavLink></li>
-                            <li>{(userName || localStorage.userName?
+                            <li>{(userName?
                                 <>
                                 <a href="/" onClick={handlerLogout}>Logout</a>
                                 <Redirect to="/" />

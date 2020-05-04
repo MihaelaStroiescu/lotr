@@ -18,24 +18,12 @@
   ],
   "movies": [
     {
-      "id": "5cd95395de30eff6ebccde58",
-      "name": "The Unexpected Journey",
       "poster": "https://static.cinemagia.ro/img/resize/db/movie/02/44/98/the-hobbit-an-unexpected-journey-247000l-600x0-w-4d0c76b2.jpg",
-      "runtimeInMinutes": 169,
-      "budgetInMillions": 200,
-      "boxOfficeRevenueInMillions": 1021,
-      "academyAwardNominations": 3,
-      "academyAwardWins": 1
+      "id": "5cd95395de30eff6ebccde58"
     },
     {
-      "id": "5cd95395de30eff6ebccde59",
-      "name": "The Desolation of Smaug",
-      "poster": "https://static.posters.cz/image/750/postere/the-hobbit-the-desolation-of-smaug-dragon-i19284.jpg",
-      "runtimeInMinutes": 161,
-      "budgetInMillions": 217,
-      "boxOfficeRevenueInMillions": 958.4,
-      "academyAwardNominations": 3,
-      "academyAwardWins": 0
+      "poster": "https://lyricstranslate.com/files/styles/large/public/Howard-Shore_The-Hobbit-2.jpg?itok=0-jRqWHM",
+      "id": "5cd95395de30eff6ebccde59"
     },
     {
       "id": "5cd95395de30eff6ebccde5a",

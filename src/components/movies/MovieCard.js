@@ -2,8 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function MovieCard({ film }) {
-    // const film = props.film;
-    // const { film } = props;
     console.log(film)
 
     return (
