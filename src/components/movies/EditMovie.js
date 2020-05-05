@@ -21,7 +21,7 @@ function EditMovie() {
         e.preventDefault();
         console.log(e)
         try {
-            const resp = axios.put('http://localhost:3200/movies/' + movieId, {'poster':movie.poster}).then(resp => {console.log(resp.data)})
+            axios.put('http://localhost:3200/movies/' + movieId, movie).then(resp => {console.log(resp.data)})
             setRedirect(true)
         } catch(e) {
             console.warn(e)
@@ -47,9 +47,7 @@ function EditMovie() {
         <div>
             <>
                 <h1>Edit Movie {movie.name}</h1>
-
                 <form onSubmit={handleSubmit}>
-
                     <div className="form-group">
                         <label htmlFor="newimage">Change Image</label>
                         <input
@@ -61,7 +59,6 @@ function EditMovie() {
                             placeholder="upload your url"
                         />
                     </div>
-
                     <button type="submit" className="btn btn-primary">Save</button>
                 </form>
                 {(redirect ?
@@ -69,7 +66,6 @@ function EditMovie() {
                 : null
                 )}
             </>
-
         </div>
     )
 }

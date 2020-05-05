@@ -24,7 +24,7 @@ export default function Login() {
     const [isSuccessfull, setSuccessfull] = useState(false);
     const [isDirty, setDirty] = useState(false);
 
-    const { userName, setUserName } = useContext(AuthContext);
+    const { setUserName } = useContext(AuthContext);
 
     async function handlerSubmit(e) {
         e.preventDefault();
@@ -44,7 +44,6 @@ export default function Login() {
                     setUserName(res.data[0].username);
                     localStorage.setItem('userName', res.data[0].username)
                     setSuccessfull(true);
-                    console.log('res.data.username!!!',res.data[0].username);
                 } else {
                     setGlobalError("The user don't exist!");
                 }
@@ -107,7 +106,7 @@ export default function Login() {
 
                 {(isSuccessfull ?
                     <div className="alert alert-success" role="alert">
-                        Your have been succesfully logged in! Hi, {userName}!
+                        Your have been succesfully logged in!
                         <Redirect to="/movies" />
                     </div>
 
@@ -129,7 +128,7 @@ export default function Login() {
                 </div>
 
                 <div className="form-group">
-                    <label htmlFor="password">Passowrd</label>
+                    <label htmlFor="password">Password</label>
                     <input
                         type="password"
                         id="password"

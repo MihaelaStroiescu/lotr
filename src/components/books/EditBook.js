@@ -1,38 +1,44 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Redirect } from 'react-router-dom';
 import axios from 'axios';
 
 function EditBook() {
     const { bookId } = useParams();
     const [book, setBook] = useState(null);
 
-    async function getBookById(id) {
+    async function getMovieById(id) {
         try {
             const res = await axios('http://localhost:3200/books/' + id);
             setBook(res.data);
-            console.log(setBook)
+            console.log(res.data)
         } catch (e) {
             console.warn(e);
         }
-
     }
 
     async function handleSubmit(e) {
         e.preventDefault();
         console.log(e)
         try {
-            const resp = axios.put('http://localhost:3200/books/' + bookId, { 'Image': book.image }).then(resp => { console.log(resp.data) })
+            axios.put('http://localhost:3200/books/' + bookId, {
+                'name': book.name,
+                'image': book.image
+            }).then(resp => { console.log(resp.data) })
+            setRedirect(true)
         } catch (e) {
             console.warn(e)
         }
+
     }
+    const [redirect, setRedirect] = useState(false)
 
     function handleInputChange(e) {
-        setBook({ ...book, Image: e.currentTarget.value });
+        setBook({ ...book, image: e.currentTarget.value });
+        console.log(setBook)
     }
 
     useEffect(() => {
-        getBookById(bookId);
+        getMovieById(bookId);
     }, [bookId])
 
     if (!book) {
@@ -43,24 +49,25 @@ function EditBook() {
         <div>
             <>
                 <h1>Edit Book {book.name}</h1>
-
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
-                        <label htmlFor="image">Update Image</label>
+                        <label htmlFor="newimage">Change Image</label>
                         <input
                             onChange={handleInputChange}
                             value={book.image}
                             type="text"
                             className={'form-control'}
-                            id="image"
-                            placeholder="change image"
+                            id="newimage"
+                            placeholder="upload your url"
                         />
                     </div>
-
                     <button type="submit" className="btn btn-primary">Save</button>
                 </form>
+                {(redirect ?
+                    <Redirect to="/books" />
+                    : null
+                )}
             </>
-
         </div>
     )
 }

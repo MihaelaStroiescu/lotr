@@ -4,6 +4,7 @@ import axios from 'axios';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Books from './components/books/Books';
 import BookDetails from './components/books/BookDetails';
+import EditBook from './components/books/EditBook';
 import Movies from './components/movies/Movies';
 import MovieDetails from './components/movies/MovieDetails';
 import EditMovie from './components/movies/EditMovie';
@@ -15,14 +16,15 @@ import AuthContext from './components/auth/AuthContext';
 import PrivateRoute from './components/auth/PrivateRoute';
 import 'bootstrap/dist/css/bootstrap.css';
 
-async function getBooks() {
-  const res = await axios('http://localhost:3200/books');
-  console.log(res.data);
-}
-async function getMovies() {
-  const res = await axios('http://localhost:3200/movies');
-  console.log(res.data);
-}
+// async function getBooks() {
+//   const res = await axios('http://localhost:3200/books');
+//   console.log(res.data)
+// }
+
+// async function getMovies() {
+//   const res = await axios('http://localhost:3200/movies');
+//   console.log(res.data);
+// }
 
 function App() {
   const [userName, setUserName] = useState('');
@@ -40,17 +42,20 @@ function App() {
     <BrowserRouter>
       <Header />
       <div style={{height:'100%'}} className="container">
-        <Route exact path="/">
-            <Home>{userName}</Home>
+          <Route exact path="/home/">
+            <Home />
         </Route>
         <Route exact path="/books/">
-          <Books>{getBooks}</Books>
+          <Books />
         </Route>
         <Route exact path="/books/:booksId">
           <BookDetails />
         </Route>
+          <PrivateRoute path="/books/edit/:bookId">
+            <EditBook />
+          </PrivateRoute>
         <Route exact path="/movies/">
-          <Movies>{getMovies}</Movies>
+          <Movies />
         </Route>
         <Route exact path="/movies/:moviesId">
           <MovieDetails />

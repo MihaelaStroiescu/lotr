@@ -21,7 +21,6 @@ function Books() {
     return (
         <AuthContext.Provider value={{ userName, setUserName }}>
             <div className="row">
-                <h1></h1>
                 {books.map(book => <BookCard story={book} key={book.id} />)}
             </div>
         </AuthContext.Provider>

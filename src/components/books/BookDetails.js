@@ -27,13 +27,13 @@ function BookDetails() {
     if (book) {
         return (
             <>
-                <h1>{book.name} Welcome {userName}</h1>
+                <h1>{book.name}</h1>
                 <div>
                     <img src={book.image} width="50%" alt="" />
                 </div>
 
                 {userName || localStorage.userName ?
-                    <Link className="btn btn-primary" to={"/movies/edit/" + book.id}>Edit This Book</Link>
+                    <Link className="btn btn-primary" to={"/books/edit/" + book.id}>Edit This Book</Link>
                     :
                     null
                 }
