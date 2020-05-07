@@ -2,9 +2,10 @@ import React, { useState, useEffect, useContext } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import axios from 'axios';
 import AuthContext from '../auth/AuthContext';
+import Characters from './Characters';
 
 
-function MovieDetails() {
+function MovieDetails({ pers }) {
     const { userName } = useContext(AuthContext);
     const { moviesId } = useParams();
     const { charId } = useParams();
@@ -29,7 +30,7 @@ function MovieDetails() {
     async function getCharById(id) {
         try {
             const links = await axios('http://localhost:3200/movie-characters?movieID=' + id).then(res => res.data);
-
+            console.log('link:', links)
             const promises = links.map(link => axios.get('http://localhost:3200/characters/' + link.characterID).then(res => res.data));
             const characters = await Promise.all(promises);
             setChar(characters);
@@ -46,16 +47,18 @@ function MovieDetails() {
                 <div>
                     <img src={movie.poster} width="50%" alt=""/>
                 </div>
-                <h2>Characters</h2>
-                <div>
-                    <p>{char.name}</p>
-                </div>
 
                 {userName || localStorage.userName ?
                         <Link className="btn btn-primary" to={"/movies/edit/" + movie.id}>Edit This Movie</Link>
                         :
                         null
                     }
+                <div className="row">
+                    <h1> Main Characters</h1>
+                    <div>
+                        <p> {char.map(pers => <Characters pers={pers} key={pers.id} />)}</p>
+                    </div>
+                </div>
             </>
 
 

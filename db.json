@@ -103,6 +103,7 @@
       "death": "FO 121",
       "realm": "Reunited Kingdom",
       "hair": "Black",
+      "image": "",
       "name": "Arwen",
       "wikiUrl": "http://lotr.wikia.com//wiki/Arwen"
     },
@@ -116,6 +117,7 @@
       "death": "Unknown (Last sighting 29 SeptemberTA 3021,) (,SR 1421,)",
       "realm": "",
       "hair": "Brown, later white",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT3dyd_5R_P-F9X5BmZj8vABpL0qzfR-pGvTxSpDKmi3QRcexh2&usqp=CAU",
       "name": "Bilbo Baggins",
       "wikiUrl": "http://lotr.wikia.com//wiki/Bilbo_Baggins"
     },
@@ -129,6 +131,7 @@
       "death": "FO",
       "realm": "",
       "hair": "",
+      "image": "https://i.pinimg.com/originals/fe/7e/4e/fe7e4e661cd7b0c33a6f6f7cf83b61cc.jpg",
       "name": "Frodo Gardner",
       "wikiUrl": "http://lotr.wikia.com//wiki/Frodo_Gardner"
     },
@@ -142,6 +145,7 @@
       "death": "TA 2994",
       "realm": "",
       "hair": "White",
+      "image": "https://vignette.wikia.nocookie.net/lotr/images/5/52/Balin.jpg/revision/latest/top-crop/width/360/height/450?cb=20120911171656",
       "name": "Balin",
       "wikiUrl": "http://lotr.wikia.com//wiki/Balin"
     },
@@ -155,6 +159,7 @@
       "death": "FA 432",
       "realm": "",
       "hair": "",
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lord-of-the-rings-sean-bean-boromir-1584636601.jpg",
       "name": "Boromir (House of Bëor)",
       "wikiUrl": "http://lotr.wikia.com//wiki/Boromir_(House_of_B%C3%ABor)"
     },
@@ -168,6 +173,7 @@
       "death": "",
       "realm": "",
       "hair": "",
+      "image": "https://i.pinimg.com/originals/20/1b/88/201b8814bc242568936940c34180eb6e.jpg",
       "name": "Merry Gamgee",
       "wikiUrl": "http://lotr.wikia.com//wiki/Merry_Gamgee"
     },
@@ -181,6 +187,7 @@
       "death": "Still alive; departed to ,Aman, on ,September 29 ,3021",
       "realm": "Rivendell",
       "hair": "Dark",
+      "image": "https://vignette.wikia.nocookie.net/lotr/images/9/9f/Elrond_of_Rivendell.jpg/revision/latest?cb=20130202120854",
       "name": "Elrond",
       "wikiUrl": "http://lotr.wikia.com//wiki/Elrond"
     },
@@ -193,8 +200,7 @@
       "height": "Tall-6'6",
       "spouse": "Lothíriel after the War of the Ring",
       "gender": "Male",
-      "name": "Éomer",
-      "race": "Men",
+      "image": "https://i.pinimg.com/originals/25/7a/d4/257ad496e8f5463f30780da139c8c63e.jpg",
       "wikiUrl": "http://lotr.wikia.com//wiki/%C3%89omer"
     },
     {
@@ -207,6 +213,7 @@
       "death": "TA 1944",
       "realm": "",
       "hair": "",
+      "image": "https://i.pinimg.com/originals/c8/e4/14/c8e414cc19dbf33400d69acce36257c3.jpg",
       "name": "Faramir (son of Ondoher)",
       "wikiUrl": "http://lotr.wikia.com//wiki/Faramir_(son_of_Ondoher)"
     },
@@ -220,6 +227,7 @@
       "death": "Still alive: Departed over the sea on ,September 29 ,3021",
       "realm": "Eregion,Lothlórien,Caras Galadhon",
       "hair": "Golden",
+      "image": "https://vignette.wikia.nocookie.net/lotr/images/c/cb/Galadriel.jpg/revision/latest/top-crop/width/360/height/360?cb=20151015204512",
       "name": "Galadriel",
       "wikiUrl": "http://lotr.wikia.com//wiki/Galadriel"
     },
@@ -233,6 +241,7 @@
       "death": "Still alive, after going to the ,Undying Lands, in ,FO 61",
       "realm": "",
       "hair": "Blond (movie)",
+      "image": "https://i0.wp.com/www.theonering.net/torwp/wp-content/uploads/2013/05/samwise-gamgee.jpg?fit=444%2C273&ssl=1",
       "name": "Samwise Gamgee",
       "wikiUrl": "http://lotr.wikia.com//wiki/Samwise_Gamgee"
     },
@@ -246,7 +255,7 @@
       "death": "January 253019 ,Battle of the Peak immortal",
       "realm": "",
       "hair": "Grey, later white",
-      "name": "Gandalf",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHnJIkCfeEXl6LzJxu0GvXQFWu6r8Ysqe4G4jG43655gkkevYD&s",
       "wikiUrl": "http://lotr.wikia.com//wiki/Gandalf"
     },
     {
@@ -272,6 +281,7 @@
       "death": "March 25 ,3019",
       "realm": "",
       "hair": "",
+      "image": "https://www.thesun.co.uk/wp-content/uploads/2019/03/NINTCHDBPICT0004777086082.jpg",
       "name": "Gollum",
       "wikiUrl": "http://lotr.wikia.com//wiki/Gollum"
     },
@@ -311,6 +321,7 @@
       "death": "Still alive, departed to ,Aman ,FO 120",
       "realm": "",
       "hair": "Uncertain (book), Blonde (films)",
+      "image": "https://i.pinimg.com/originals/4b/b1/81/4bb1819ec261f33e5ad2c3f77e72df19.jpg",
       "name": "Legolas",
       "wikiUrl": "http://lotr.wikia.com//wiki/Legolas"
     },
@@ -324,6 +335,7 @@
       "death": "3 November ,3019",
       "realm": "Isengard,Nan Curunír",
       "hair": "White",
+      "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2019/11/Christopher-Lee-as-Saruman-in-Lord-of-the-Rings.jpg",
       "name": "Saruman",
       "wikiUrl": "http://lotr.wikia.com//wiki/Saruman"
     },
@@ -337,6 +349,7 @@
       "death": "March 25 ,3019",
       "realm": "",
       "hair": "Various",
+      "image": "https://img1.looper.com/img/gallery/saurons-entire-backstory-explained/intro-1582030750.jpg",
       "name": "Sauron",
       "wikiUrl": "http://lotr.wikia.com//wiki/Sauron"
     },
@@ -349,6 +362,7 @@
       "height": null,
       "spouse": null,
       "gender": "Male",
+      "image": "https://i.pinimg.com/originals/59/46/e1/5946e11b52189baa830f0eaad8a3c39a.jpg",
       "name": "Smaug",
       "race": "Dragons"
     },
@@ -375,6 +389,7 @@
       "death": "November 23, TA 2941",
       "realm": "Ered Luin",
       "hair": "",
+      "image": "https://vignette.wikia.nocookie.net/lotr/images/7/76/ThorinTDOMTextlessPoster.jpg/revision/latest?cb=20140731214832",
       "name": "Thorin II Oakenshield",
       "wikiUrl": "http://lotr.wikia.com//wiki/Thorin_II_Oakenshield"
     },
@@ -396,7 +411,7 @@
     {
       "id": 1,
       "movieID": "5cd95395de30eff6ebccde58",
-      "characterID": "5cd99d4bde30eff6ebccfbe5"
+      "characterID": "5cdbdecb6dc0baeae48cfa42"
     },
     {
       "id": 2,
@@ -406,8 +421,258 @@
     {
       "id": 3,
       "movieID": "5cd95395de30eff6ebccde58",
+      "characterID": "5cd99d4bde30eff6ebccfea0"
+    },
+    {
+      "id": 4,
+      "movieID": "5cd95395de30eff6ebccde58",
+      "characterID": "5cd99d4bde30eff6ebccfe15"
+
+    },
+    {
+      "id": 5,
+      "movieID": "5cd95395de30eff6ebccde58",
+      "characterID": "5cd99d4bde30eff6ebccfe9e"
+    },
+    {
+      "id": 6,
+      "movieID": "5cd95395de30eff6ebccde58",
+      "characterID": "5cd99d4bde30eff6ebccfd06"
+    },
+    {
+      "id": 7,
+      "movieID": "5cd95395de30eff6ebccde59",
+      "characterID": "5cdbdecb6dc0baeae48cfa42"
+    },
+    {
+      "id": 8,
+      "movieID": "5cd95395de30eff6ebccde59",
+      "characterID": "5cd99d4bde30eff6ebccfc38"
+    },
+    {
+      "id": 9,
+      "movieID": "5cd95395de30eff6ebccde59",
+      "characterID": "5cd99d4bde30eff6ebccfea0"
+    },
+    {
+      "id": 10,
+      "movieID": "5cd95395de30eff6ebccde59",
+      "characterID": "5cd99d4bde30eff6ebccfe15"
+    },
+    {
+      "id": 11,
+      "movieID": "5cd95395de30eff6ebccde59",
+      "characterID": "5cd99d4bde30eff6ebccfe9e"
+    },
+    {
+      "id": 12,
+      "movieID": "5cd95395de30eff6ebccde59",
+      "characterID": "5cd99d4bde30eff6ebccfd06"
+    },
+    {
+      "id": 13,
+      "movieID": "5cd95395de30eff6ebccde59",
+      "characterID": "5cd99d4bde30eff6ebccfea5"
+    },
+    {
+      "id": 14,
+      "movieID": "5cd95395de30eff6ebccde59",
+      "characterID": "5cd99d4bde30eff6ebccfd81"
+    },
+    {
+      "id": 15,
+      "movieID": "5cd95395de30eff6ebccde5a",
+      "characterID": "5cdbdecb6dc0baeae48cfa42"
+    },
+    {
+      "id": 16,
+      "movieID": "5cd95395de30eff6ebccde5a",
+      "characterID": "5cd99d4bde30eff6ebccfea0"
+    },
+    {
+      "id": 17,
+      "movieID": "5cd95395de30eff6ebccde5a",
+      "characterID": "5cd99d4bde30eff6ebccfe15"
+    },
+    {
+      "id": 18,
+      "movieID": "5cd95395de30eff6ebccde5a",
+      "characterID": "5cd99d4bde30eff6ebccfe9e"
+    },
+    {
+      "id": 19,
+      "movieID": "5cd95395de30eff6ebccde5a",
+      "characterID": "5cd99d4bde30eff6ebccfd06"
+    },
+    {
+      "id": 20,
+      "movieID": "5cd95395de30eff6ebccde5a",
+      "characterID": "5cd99d4bde30eff6ebccfea5"
+    },
+    {
+      "id": 21,
+      "movieID": "5cd95395de30eff6ebccde5a",
+      "characterID": "5cd99d4bde30eff6ebccfd81"
+    },
+    {
+      "id": 22,
+      "movieID": "5cd95395de30eff6ebccde5a",
+      "characterID": "5cd99d4bde30eff6ebccfcc8"
+    },
+    {
+      "id": 23,
+      "movieID": "5cd95395de30eff6ebccde5a",
+      "characterID": "5cd99d4bde30eff6ebccfc1b"
+    },
+    {
+      "id": 24,
+      "movieID": "5cd95395de30eff6ebccde5b",
+      "characterID": "5cd99d4bde30eff6ebccfbe5"
+    },
+    {
+      "id": 25,
+      "movieID": "5cd95395de30eff6ebccde5b",
+      "characterID": "5cd99d4bde30eff6ebccfe9e"
+    },
+    {
+      "id": 26,
+      "movieID": "5cd95395de30eff6ebccde5b",
+      "characterID": "5cd99d4bde30eff6ebccfc38"
+    },
+    {
+      "id": 27,
+      "movieID": "5cd95395de30eff6ebccde5b",
       "characterID": "5cd99d4bde30eff6ebccfd0a"
+    },
+    {
+      "id": 28,
+      "movieID": "5cd95395de30eff6ebccde5b",
+      "characterID": "5cd99d4bde30eff6ebccfd0d"
+    },
+    {
+      "id": 30,
+      "movieID": "5cd95395de30eff6ebccde5b",
+      "characterID": "5cd99d4bde30eff6ebccfcdf"
+    },
+    {
+      "id": 31,
+      "movieID": "5cd95395de30eff6ebccde5b",
+      "characterID": "5cd99d4bde30eff6ebccfea4"
+    },
+    {
+      "id": 32,
+      "movieID": "5cd95395de30eff6ebccde5b",
+      "characterID": "5cd99d4bde30eff6ebccfd81"
+    },
+    {
+      "id": 33,
+      "movieID": "5cd95395de30eff6ebccde5b",
+      "characterID": "5cdbdecb6dc0baeae48cfa5a"
+    },
+    {
+      "id": 34,
+      "movieID": "5cd95395de30eff6ebccde5c",
+      "characterID": "5cd99d4bde30eff6ebccfbe5"
+    },
+    {
+      "id": 35,
+      "movieID": "5cd95395de30eff6ebccde5c",
+      "characterID": "5cd99d4bde30eff6ebccfe9e"
+    },
+    {
+      "id": 36,
+      "movieID": "5cd95395de30eff6ebccde5c",
+      "characterID": "5cd99d4bde30eff6ebccfc38"
+    },
+    {
+      "id": 37,
+      "movieID": "5cd95395de30eff6ebccde5c",
+      "characterID": "5cd99d4bde30eff6ebccfd0a"
+    },
+    {
+      "id": 38,
+      "movieID": "5cd95395de30eff6ebccde5c",
+      "characterID": "5cd99d4bde30eff6ebccfd0d"
+    },
+    {
+      "id": 39,
+      "movieID": "5cd95395de30eff6ebccde5c",
+      "characterID": "5cd99d4bde30eff6ebccfcdf"
+    },
+    {
+      "id": 40,
+      "movieID": "5cd95395de30eff6ebccde5c",
+      "characterID": "5cd99d4bde30eff6ebccfea4"
+    },
+    {
+      "id": 41,
+      "movieID": "5cd95395de30eff6ebccde5c",
+      "characterID": "5cd99d4bde30eff6ebccfd81"
+    },
+    {
+      "id": 42,
+      "movieID": "5cd95395de30eff6ebccde5c",
+      "characterID": "5cdbdecb6dc0baeae48cfa5a"
+    },
+    {
+      "id": 43,
+      "movieID": "5cd95395de30eff6ebccde5c",
+      "characterID": "5cd99d4bde30eff6ebccfc58"
+    },
+    {
+      "id": 44,
+      "movieID": "5cd95395de30eff6ebccde5d",
+      "characterID": "5cd99d4bde30eff6ebccfbe5"
+    },
+    {
+      "id": 45,
+      "movieID": "5cd95395de30eff6ebccde5d",
+      "characterID": "5cd99d4bde30eff6ebccfe9e"
+    },
+    {
+      "id": 46,
+      "movieID": "5cd95395de30eff6ebccde5d",
+      "characterID": "5cd99d4bde30eff6ebccfc38"
+    },
+    {
+      "id": 47,
+      "movieID": "5cd95395de30eff6ebccde5d",
+      "characterID": "5cd99d4bde30eff6ebccfd0a"
+    },
+    {
+      "id": 48,
+      "movieID": "5cd95395de30eff6ebccde5d",
+      "characterID": "5cd99d4bde30eff6ebccfd0d"
+    },
+    {
+      "id": 49,
+      "movieID": "5cd95395de30eff6ebccde5d",
+      "characterID": "5cd99d4bde30eff6ebccfcdf"
+    },
+    {
+      "id": 50,
+      "movieID": "5cd95395de30eff6ebccde5d",
+      "characterID": "5cd99d4bde30eff6ebccfea4"
+    },
+    {
+      "id": 51,
+      "movieID": "5cd95395de30eff6ebccde5d",
+      "characterID": "5cd99d4bde30eff6ebccfd81"
+    },
+    {
+      "id": 52,
+      "movieID": "5cd95395de30eff6ebccde5d",
+      "characterID": "5cdbdecb6dc0baeae48cfa5a"
     }
+
+
+
+
+
+
+
+
+
   ],
   "users": [
     {
