@@ -1,6 +1,5 @@
 .movieDetails_wraper {
     width: 100%;
-
 }
 
 .page_row {
@@ -11,27 +10,21 @@
     background-color: white;
     border: solid #bababa 15px;
     margin-bottom: 25px;
-
 }
 
 .media_wrapper {
     align-self: center;
+    margin-bottom: 20px;
 }
 
 .content_wrapper {
     flex: 2;
-
 }
 
 .media {
     display: flex;
     flex-direction: column;
-    padding: 40px 0 40px 60px;
-}
-
-.media h1 {
-    color: #0c4e96;
-
+    padding: 0 0 25px 25px;
 }
 
 .movie_poster {
@@ -67,7 +60,7 @@
     width: 300px;
     margin-top: 15px;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
 }
 
 .characters {

@@ -2,6 +2,7 @@ import React, { useState, useEffect} from 'react';
 import axios from 'axios';
 import MovieCard from './MovieCard';
 import AuthContext from './../auth/AuthContext';
+import './MovieCard.css';
 
 function MovieList() {
     const[userName, setUserName] = useState('');
@@ -21,10 +22,12 @@ function MovieList() {
 
     return (
         <AuthContext.Provider value={{ userName, setUserName }}>
-        <div className="row">
-            <h1>Welcome</h1>
-            {movies.map(movie => <MovieCard film={movie} key={movie.id} />)}
-        </div>
+            <div className="page_wrapper">
+                <h1>Lord of the Rings Series</h1>
+                <div className="wrapper_movies">
+                    {movies.map(movie => <MovieCard film={movie} key={movie.id} />)}
+                </div>
+            </div>
         </AuthContext.Provider>
     );
 }

@@ -23,7 +23,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: tomato;
+    color: rgb(15, 51, 117);
 }
 
 .form-group {

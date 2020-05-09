@@ -1,19 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './MovieCard.css';
 
 function MovieCard({ film }) {
     console.log(film)
 
     return (
-        <div className="col-md-4">
-            <div className="card">
-                <img className="card-img-top" src={film.poster} alt="Movie Poster" />
-                <div className="card-body">
-                    <h5 className="card-title">{film.name}</h5>
-                    <p className="card-text">
+        <div className="movie_wraper">
+            <div className="movie_card">
+                <img className="movie_card_img" src={film.poster} alt="Movie Poster" />
+                <div className="movie_card_body">
+                    <h5>{film.name}</h5>
+                    <p className="movie_card_text">
                         Duration: {film.runtimeInMinutes}
                     </p>
-                    <Link to={'/movies/' + film.id} className="btn btn-primary">Details</Link>
+                    <Link to={'/movies/' + film.id} className="btn_movie_edit">Details</Link>
                 </div>
             </div>
         </div>
