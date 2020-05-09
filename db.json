@@ -255,6 +255,7 @@
       "death": "January 253019 ,Battle of the Peak immortal",
       "realm": "",
       "hair": "Grey, later white",
+      "name": "Gandalf",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHnJIkCfeEXl6LzJxu0GvXQFWu6r8Ysqe4G4jG43655gkkevYD&s",
       "wikiUrl": "http://lotr.wikia.com//wiki/Gandalf"
     },
@@ -427,7 +428,6 @@
       "id": 4,
       "movieID": "5cd95395de30eff6ebccde58",
       "characterID": "5cd99d4bde30eff6ebccfe15"
-
     },
     {
       "id": 5,
@@ -664,15 +664,6 @@
       "movieID": "5cd95395de30eff6ebccde5d",
       "characterID": "5cdbdecb6dc0baeae48cfa5a"
     }
-
-
-
-
-
-
-
-
-
   ],
   "users": [
     {
@@ -682,6 +673,5 @@
       "confirm-password": "1",
       "id": 1
     }
-
   ]
 }
