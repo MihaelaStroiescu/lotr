@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Redirect } from 'react-router-dom';
 import axios from 'axios';
+import './MovieDetails.css';
 
 function EditMovie() {
     const { movieId } = useParams();
@@ -44,11 +45,11 @@ function EditMovie() {
     }
 
     return (
-        <div>
             <>
-                <h1>Edit Movie {movie.name}</h1>
+                <div className="edit">
+                <h1>Edit Image for "{movie.name}"</h1>
                 <form onSubmit={handleSubmit}>
-                    <div className="form-group">
+                        <div className="form-group ">
                         <label htmlFor="newimage">Change Image</label>
                         <input
                             onChange={handleInputChange}
@@ -59,14 +60,14 @@ function EditMovie() {
                             placeholder="upload your url"
                         />
                     </div>
-                    <button type="submit" className="btn btn-primary">Save</button>
+                    <button type="submit" className="btn_edit">Save</button>
                 </form>
                 {(redirect ?
                 <Redirect to="/movies" />
                 : null
-                )}
+                    )}
+                </div>
             </>
-        </div>
     )
 }
 

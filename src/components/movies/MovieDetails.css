@@ -63,6 +63,12 @@
     padding: 10px;
 }
 
+.btn_edit:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #0c4e96;
+}
+
 .characters {
     display: block;
 }
@@ -97,4 +103,32 @@
 
 .character_description {
     width: 500px;
+}
+
+.edit {
+    display: block;
+    padding: 0 25px 30px;
+    background-color: white;
+    border: solid #bababa 15px;
+}
+
+.edit .btn_edit {
+    text-align: center;
+}
+
+.preview_book {
+    display: block;
+    text-align: center;
+}
+
+.book_poster {
+    max-width: 300px;
+    margin: 20px auto;
+    border: 1px solid #bababa;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.book_poster img {
+    width: 100%;
 }

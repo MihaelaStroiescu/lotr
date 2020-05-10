@@ -33,13 +33,13 @@ function Header() {
                     <div className="nav-logo"><NavLink to="/"><img alt="Logo" src="/lotr.jpg" /></NavLink></div>
                     <div className="navigation-bar-items">
                         <ul>
-                            <li><NavLink activeClassName="active" to="/home">Home  {userName}</NavLink></li>
+                            <li><NavLink activeClassName="active" to="/">Home  {userName}</NavLink></li>
                             <li><NavLink activeClassName="active" to="/books">Books</NavLink></li>
                             <li><NavLink activeClassName="active" to="/movies">Movies</NavLink></li>
                             <li>{(userName  || localStorage.userName ?
                                 <>
                                 <a href="/" onClick={handlerLogout}>Logout</a>
-                                <Redirect to="/home/" />
+                                <Redirect to="/" />
                                 </>
                                 :
                                 <>

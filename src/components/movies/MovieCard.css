@@ -55,3 +55,9 @@
     padding: 10px 30px;
     display: block;
 }
+
+.btn_movie_edit:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #0c4e96;
+}

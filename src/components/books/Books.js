@@ -20,8 +20,11 @@ function Books() {
 
     return (
         <AuthContext.Provider value={{ userName, setUserName }}>
-            <div className="row">
+            <div className="page_wrapper">
+                <h1>Lord of the Rings Series Books</h1>
+                <div className="wrapper_movies">
                 {books.map(book => <BookCard story={book} key={book.id} />)}
+                </div>
             </div>
         </AuthContext.Provider>
     );

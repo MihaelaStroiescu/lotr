@@ -1,11 +1,13 @@
 import React from 'react';
+import './Home.css';
 
 
 
 function Home() {
 
     return (
-        <div>
+        <div className="page_wrapper">
+            <div className="about_wrapper"></div>
             <h1>About Autor..</h1>
             <p><span>John Ronald Reuel Tolkien</span> 3 January 1892 – 2 September 1973 was an English writer, poet, philologist, and academic. He was the author of the classic high fantasy works The Hobbit and The Lord of the Rings.</p>
             <p>He served as the Rawlinson and Bosworth Professor of Anglo-Saxon and Fellow of Pembroke College, Oxford, from 1925 to 1945 and Merton Professor of English Language and Literature and Fellow of Merton College, Oxford, from 1945 to 1959. He was at one time a close friend of C. S. Lewis—they were both members of the informal literary discussion group known as the Inklings. Tolkien was appointed a Commander of the Order of the British Empire by Queen Elizabeth II on 28 March 1972.</p>

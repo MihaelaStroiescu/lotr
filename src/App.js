@@ -37,12 +37,14 @@ function App() {
     }
   }, [userName]);
 
+  console.log("userNam:", userName);
+
   return (
     <AuthContext.Provider value={{userName, setUserName}}>
     <BrowserRouter>
       <Header />
       <div style={{height:'100%'}} className="container">
-          <Route exact path="/home/">
+          <Route exact path="/">
             <Home />
         </Route>
         <Route exact path="/books/">

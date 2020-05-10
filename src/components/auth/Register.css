@@ -1,9 +1,11 @@
+
 .main-container {
-    position: fixed;
+    /* position: fixed;
     left: 50%;
-    top: 50%;
-    width: 700px;
-    transform: translate(-50%, -50%);
+    top: 50%; */
+    width: 500px;
+    margin: 0 auto;
+    /* transform: translate(-50%, -50%); */
     padding: 30px;
     border: 2px solid grey;
     box-shadow: 12px 15px 15px rgb(161, 152, 153);

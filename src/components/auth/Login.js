@@ -2,6 +2,7 @@ import React, { useState, useContext } from 'react';
 import axios from 'axios';
 import AuthContext from './AuthContext';
 import { Redirect } from 'react-router-dom';
+import './Register.css';
 
 const errorMessages = {
     'username': 'You must enter a username!',
@@ -96,7 +97,7 @@ export default function Login() {
     return (
         <>
         <div className="main-container">
-            <img alt="Logo" src="lotr.jpg" />
+            <img alt="Logo" src="lotr-login.jpg" width="50%"/>
             <h3>Login</h3>
                 {(globalErrorMessage ?
                     <div className="alert alert-danger" role="alert">
