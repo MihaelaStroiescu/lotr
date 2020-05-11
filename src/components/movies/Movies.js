@@ -6,8 +6,6 @@ import './MovieCard.css';
 
 function MovieList() {
     const[userName, setUserName] = useState('');
-    console.log(userName);
-
     let [movies, setMovies] = useState([]);
 
     useEffect(() => {
@@ -16,7 +14,6 @@ function MovieList() {
 
     async function getMovies() {
         const res = await axios('http://localhost:3200/movies/');
-        console.log(res.data)
         setMovies(res.data)
     }
 

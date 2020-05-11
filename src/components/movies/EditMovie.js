@@ -11,7 +11,6 @@ function EditMovie() {
         try {
             const res = await axios('http://localhost:3200/movies/' + id);
             setMovie(res.data);
-            console.log(res.data)
         } catch (e) {
             console.warn(e);
         }
@@ -20,7 +19,6 @@ function EditMovie() {
 
     async function handleSubmit(e) {
         e.preventDefault();
-        console.log(e)
         try {
             axios.put('http://localhost:3200/movies/' + movieId, movie).then(resp => {console.log(resp.data)})
             setRedirect(true)
@@ -30,7 +28,6 @@ function EditMovie() {
 
     }
     const [redirect, setRedirect] = useState(false)
-
 
     function handleInputChange(e){
         setMovie({ ...movie, poster: e.currentTarget.value });
@@ -45,11 +42,11 @@ function EditMovie() {
     }
 
     return (
-            <>
-                <div className="edit">
+        <>
+            <div className="edit">
                 <h1>Edit Image for "{movie.name}"</h1>
                 <form onSubmit={handleSubmit}>
-                        <div className="form-group ">
+                    <div className="form-group ">
                         <label htmlFor="newimage">Change Image</label>
                         <input
                             onChange={handleInputChange}
@@ -66,8 +63,8 @@ function EditMovie() {
                 <Redirect to="/movies" />
                 : null
                     )}
-                </div>
-            </>
+            </div>
+        </>
     )
 }
 

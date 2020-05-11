@@ -5,7 +5,6 @@ import AuthContext from './../auth/AuthContext';
 
 function Books() {
     const [userName, setUserName] = useState('');
-    console.log(userName);
     let [books, setBooks] = useState([]);
 
     useEffect(() => {
@@ -14,7 +13,6 @@ function Books() {
 
     async function getBooks() {
         const res = await axios('http://localhost:3200/books/');
-        console.log(res.data)
         setBooks(res.data)
     }
 
@@ -23,7 +21,7 @@ function Books() {
             <div className="page_wrapper">
                 <h1>Lord of the Rings Series Books</h1>
                 <div className="wrapper_movies">
-                {books.map(book => <BookCard story={book} key={book.id} />)}
+                    {books.map(book => <BookCard story={book} key={book.id} />)}
                 </div>
             </div>
         </AuthContext.Provider>

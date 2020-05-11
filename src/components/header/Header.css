@@ -1,5 +1,4 @@
 .header-wrapper {
-    /* background-color: #B64E2B; */
     background-color: #C48E38;
     position: fixed;
     top: 0;
@@ -16,7 +15,6 @@
     height: 100%;
     display: flex;
     align-items: center;
-
 }
 
 .nav-logo {
@@ -26,6 +24,7 @@
     width: 320px;
     margin-left: 10px;
 }
+
 
 .navigation-bar-items a {
     color: white;
@@ -43,7 +42,6 @@
 
 .navigation-bar-items li {
     padding-left: 30px;
-
 }
 
 .navigation-bar-items li:last-child {
@@ -55,5 +53,10 @@
     color: rgb(75, 34, 34);
     text-decoration: none;
     font-weight: bolder;
-
 }
+
+@media (max-width: 991px) {
+        .navigation-bar-items {
+            display: none;
+        }
+    }

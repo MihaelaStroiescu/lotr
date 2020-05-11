@@ -6,9 +6,9 @@
       "image": "https://booksyaari.com/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/t/h/the_fellowship_of_the_ring.jpg"
     },
     {
-      "id": "5cf58077b53e011a64671583",
       "name": "The Two Towers",
-      "image": "https://bokunosekai.files.wordpress.com/2010/11/the-two-towers.jpg"
+      "image": "https://bokunosekai.files.wordpress.com/2010/11/the-two-towers.jpg",
+      "id": "5cf58077b53e011a64671583"
     },
     {
       "id": "5cf58080b53e011a64671584",
@@ -672,6 +672,13 @@
       "password": "1",
       "confirm-password": "1",
       "id": 1
+    },
+    {
+      "username": "gg",
+      "email": "mihaela@stroiescu.ro",
+      "password": "12",
+      "confirm-password": "12",
+      "id": 2
     }
   ]
 }

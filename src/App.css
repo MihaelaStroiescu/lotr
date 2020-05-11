@@ -1,11 +1,11 @@
 .App {
   text-align: center;
-
 }
 
 body::after {
   content: "";
   background: url('./cover-lotr.jpg');
+  background-size: cover;
   opacity: 0.5;
   top: 0;
   left: 0;
@@ -18,7 +18,21 @@ body::after {
 body h1 {
   color:#0c4e96;
   margin: 20px 0;
+  font-size: 40px;
 }
+
+  @media (max-width: 1199px) {
+        body h1 {
+          font-size: 36px;
+        }
+    }
+
+    @media (max-width: 991px) {
+        body h1 {
+            font-size: 32px;
+        }
+    }
+
 
 body .container {
   margin-top: 100px;

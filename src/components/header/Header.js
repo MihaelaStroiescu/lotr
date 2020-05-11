@@ -10,9 +10,6 @@ function Header() {
     const { userName, setUserName } = useContext(AuthContex);
     let [sideDrawerOpen, setSideDrawerOpen] = useState(false);
 
-    console.log('userName header', userName);
-    console.log('localStorage userName', localStorage.userName);
-
     const drawerToggleClickHandler = ()  => {
         setSideDrawerOpen(!sideDrawerOpen);
     };
@@ -21,7 +18,6 @@ function Header() {
         e.preventDefault();
         setUserName(null);
         localStorage.removeItem('userName');
-
     }
 
     return(

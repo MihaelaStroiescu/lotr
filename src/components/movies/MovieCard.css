@@ -16,6 +16,18 @@
     margin: 20px 0;
 }
 
+    @media (max-width: 1199px) {
+        .movie_wraper {
+            width: 400px;
+        }
+    }
+
+    @media (max-width: 991px) {
+        .movie_wraper {
+            width: 100%;
+        }
+    }
+
 .movie_card {
     display: flex;
     flex-direction: column;

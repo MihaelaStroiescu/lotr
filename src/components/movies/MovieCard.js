@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import './MovieCard.css';
 
 function MovieCard({ film }) {
-    console.log(film)
 
     return (
         <div className="movie_wraper">

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import axios from 'axios';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Books from './components/books/Books';
 import BookDetails from './components/books/BookDetails';
@@ -16,36 +15,26 @@ import AuthContext from './components/auth/AuthContext';
 import PrivateRoute from './components/auth/PrivateRoute';
 import 'bootstrap/dist/css/bootstrap.css';
 
-// async function getBooks() {
-//   const res = await axios('http://localhost:3200/books');
-//   console.log(res.data)
-// }
-
-// async function getMovies() {
-//   const res = await axios('http://localhost:3200/movies');
-//   console.log(res.data);
-// }
 
 function App() {
   const [userName, setUserName] = useState('');
   useEffect(() => {
     // verificam daca in localStorageavem userName. Daca avem setam setUserName(ce vine din LocalStorage)
     const username = localStorage.getItem('userName');
-
     if (username) {
       setUserName(userName);
     }
   }, [userName]);
 
-  console.log("userNam:", userName);
 
   return (
+    <>
     <AuthContext.Provider value={{userName, setUserName}}>
     <BrowserRouter>
       <Header />
       <div style={{height:'100%'}} className="container">
-          <Route exact path="/">
-            <Home />
+        <Route exact path="/">
+          <Home />
         </Route>
         <Route exact path="/books/">
           <Books />
@@ -53,9 +42,9 @@ function App() {
         <Route exact path="/books/:booksId">
           <BookDetails />
         </Route>
-          <PrivateRoute path="/books/edit/:bookId">
-            <EditBook />
-          </PrivateRoute>
+            <PrivateRoute path="/books/edit/:bookId">
+              <EditBook />
+            </PrivateRoute>
         <Route exact path="/movies/">
           <Movies />
         </Route>
@@ -74,6 +63,9 @@ function App() {
       </div>
     </BrowserRouter>
     </AuthContext.Provider>
+
+</>
+
   );
 }
 

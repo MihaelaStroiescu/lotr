@@ -13,7 +13,6 @@ function BookDetails() {
         try {
             const res = await axios('http://localhost:3200/books/' + id);
             setBook(res.data);
-            console.log(res.data)
         } catch (e) {
             console.warn(e);
         }
@@ -29,21 +28,18 @@ function BookDetails() {
             <>
                 <div className="edit">
                     <div className="preview_book">
-                <h1>{book.name}</h1>
-                    <div className="book_poster">
-                    <img src={book.image} alt="Book Poster" />
-                </div>
-
-                {userName || localStorage.userName ?
-                    <Link className="btn_edit" to={"/books/edit/" + book.id}>Edit This Book</Link>
-                    :
-                    null
-                }
+                        <h1>{book.name}</h1>
+                        <div className="book_poster">
+                            <img src={book.image} alt="Book Poster" />
+                        </div>
+                            {userName || localStorage.userName ?
+                                <Link className="btn_edit" to={"/books/edit/" + book.id}>Edit This Book</Link>
+                                :
+                                null
+                            }
                     </div>
                 </div>
             </>
-
-
         );
     } else {
         return <h1>Loading ...</h1>;

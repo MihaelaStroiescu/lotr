@@ -20,7 +20,14 @@
     z-index: 200;
     transform: translateX(-100%);
     transition: all .5s;
+    display: none;
 }
+
+    @media (max-width: 991px) {
+        .sidebarmenu {
+            display: block;
+        }
+    }
 
 .sidebarmenu.open {
     transform: translateX(0);

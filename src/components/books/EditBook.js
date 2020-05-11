@@ -11,7 +11,6 @@ function EditBook() {
         try {
             const res = await axios('http://localhost:3200/books/' + id);
             setBook(res.data);
-            console.log(res.data)
         } catch (e) {
             console.warn(e);
         }
@@ -19,7 +18,6 @@ function EditBook() {
 
     async function handleSubmit(e) {
         e.preventDefault();
-        console.log(e)
         try {
             axios.put('http://localhost:3200/books/' + bookId, {
                 'name': book.name,
@@ -35,7 +33,6 @@ function EditBook() {
 
     function handleInputChange(e) {
         setBook({ ...book, image: e.currentTarget.value });
-        console.log(setBook)
     }
 
     useEffect(() => {
@@ -47,8 +44,8 @@ function EditBook() {
     }
 
     return (
-            <>
-                <div className="edit">
+        <>
+            <div className="edit">
                 <h1>Edit Image for "{book.name}"</h1>
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
@@ -69,7 +66,7 @@ function EditBook() {
                     : null
                 )}
             </div>
-            </>
+        </>
     )
 }
 

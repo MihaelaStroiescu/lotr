@@ -7,9 +7,9 @@ const SideDrawer = (props) => {
         <div className={'sidebarmenu' + (props.isOpen ? ' open' : '') } onClick={props.click}>
             <ul>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/">Books</Link></li>
-                <li><Link to="/">Movies</Link></li>
-                <li><Link to="/">Login</Link></li>
+                <li><Link to="/books">Books</Link></li>
+                <li><Link to="/movies">Movies</Link></li>
+                <li><Link to="/login">Login</Link></li>
                 <li><Link to="/register">Register</Link></li>
             </ul>
         </div>
