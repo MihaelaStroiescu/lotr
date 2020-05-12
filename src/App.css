@@ -2,10 +2,14 @@
   text-align: center;
 }
 
-body::after {
-  content: "";
+body {
   background: url('./cover-lotr.jpg');
   background-size: cover;
+  background-repeat: repeat-y;
+}
+/*
+body::after {
+  content: "";
   opacity: 0.5;
   top: 0;
   left: 0;
@@ -14,7 +18,7 @@ body::after {
   position: absolute;
   z-index: -1;
 }
-
+*/
 body h1 {
   color:#0c4e96;
   margin: 20px 0;
@@ -37,7 +41,7 @@ body h1 {
 body .container {
   margin-top: 100px;
   background-color: white;
-  opacity: 0.9;
+  opacity: 0.8;
   padding: 25px;
 }
 
