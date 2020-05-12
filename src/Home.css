@@ -1,3 +1,29 @@
 .page_wrapper {
     background-color: white;
 }
+
+.carousel_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_container {
+    width: 450px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.image_container img {
+    padding: 20px;
+}
+
+.btn_prev {
+    margin-right: 10px;
+}
+
+.btn_next {
+    margin-left: 30px;
+}
